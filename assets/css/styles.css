@@ -15,8 +15,48 @@ a {
 /* Commont */
 
 .main-content {
-    width: 1470px;
+    width: 1170px;
     margin-left: auto;
     margin-right: auto;
     max-width: calc(100% - 48px);
+}
+/* ==============Header============= */
+.header .main-content {
+    display: flex;
+    align-items: center;
+    margin: 52px 87px 0;
+}
+.header .main-content .navigation {
+    margin-left: auto;
+}
+.header .main-content a {
+    color: #2f3a3b;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+}
+.header .main-content .navigation ul {
+    display: flex;
+    margin-right: 177px;
+    gap: 39px;
+}
+.header .navigation li:hover a {
+    font-weight: bold;
+}
+.header .cta .btn {
+    margin-right: 24px;
+}
+
+.header .cta .btn-signup {
+    border-radius: 6px;
+    border: 1px solid #1ebfc1;
+    color: #1ebfc1;
+    text-align: center;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    width: 108px;
+    height: 48px;
+    background-color: transparent;
+    cursor: pointer;
 }
