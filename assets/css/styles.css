@@ -24,7 +24,7 @@ a {
 .header .main-content {
     display: flex;
     align-items: center;
-    margin: 52px 87px 0;
+    padding: 52px 0;
 }
 .header .main-content .navigation {
     margin-left: auto;
@@ -41,7 +41,7 @@ a {
     gap: 39px;
 }
 .header .navigation li:hover a {
-    font-weight: bold;
+    text-shadow: currentcolor 1px 0px 0px;
 }
 .header .cta .btn {
     margin-right: 24px;
