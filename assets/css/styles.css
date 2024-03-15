@@ -324,11 +324,15 @@ a {
     font-weight: 700;
     line-height: normal;
     text-decoration-line: underline;
+    top: 19px;
+    right: -20px;
+    position: absolute;
 }
 .courses .top-content .row {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 /* course */
 .courses {
@@ -337,6 +341,8 @@ a {
 .courses .course-list {
     display: flex;
     gap: 47px;
+    align-items: center;
+    justify-content: center;
 }
 .courses .course-list .image {
     margin-top: 79px;
@@ -383,4 +389,61 @@ a {
     border-radius: 8px;
     background: #fff;
     box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+    padding: 0 15px;
+}
+.course-list .course {
+    padding: 0 18px;
+    width: 32.33%;
+}
+
+.course-list .course .heading {
+    margin-top: 18px;
+    color: #0d1111;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.course-list .course .desc {
+    color: #767e7e;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 6px;
+}
+.course-list .course .desc.fee {
+    margin-top: 16px;
+}
+.course-list .course .desc strong {
+    color: #0d1111;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.time-class {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 10px;
+}
+.course-list .time-class p {
+    color: #9da6a5;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    margin-top: 18px;
+}
+
+.course-list .time-class p::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    background: #1ebfc1;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
 }
