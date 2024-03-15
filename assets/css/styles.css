@@ -31,6 +31,14 @@ a {
 .btn:hover {
     opacity: 0.9;
 }
+/* Header fixed */
+.header-fixed {
+    position: sticky;
+    z-index: 1;
+    top: -36px;
+    background: rgb(255 255 255 / 70%);
+}
+
 /* ==============Header============= */
 .header .main-content {
     display: flex;
