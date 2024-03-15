@@ -358,8 +358,12 @@ a {
     height: 393px;
     object-fit: cover;
     border-radius: 8px;
-    opacity: 0.75;
     background: #d0efed;
+    transition: opacity 0.3s ease;
+}
+.courses .course-list .image:hover {
+    opacity: 0.75;
+    cursor: pointer;
 }
 .courses .slogan {
     color: #767e7e;
@@ -454,4 +458,29 @@ a {
     border-radius: 50%;
     display: inline-block;
     margin-right: 10px;
+}
+/* Stats number */
+.stats-number {
+    margin-top: 265px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 202px;
+    padding: 0 139px;
+    text-align: center;
+}
+.stats-number .stats .number {
+    color: #0d1111;
+    text-align: center;
+    font-size: 6.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.stats-number .stats .desc {
+    color: #767e7e;
+    text-align: center;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
 }
