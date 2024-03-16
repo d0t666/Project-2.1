@@ -108,9 +108,8 @@ body {
     /* display: inline-flex; */
     /* margin-left: -6px; */
     /* margin: 8px -96px 0px 0; */
-    right: 35px;
-    bottom: 17px;
-    position: absolute;
+    margin-left: -11px;
+    margin-bottom: -8px;
 }
 .hero .cta-content {
     width: 50%;
