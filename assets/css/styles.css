@@ -488,6 +488,7 @@ a {
 /* testimonial */
 .testimonial {
     margin-top: 264px;
+    padding-bottom: 130px;
 }
 .testimonial .block {
     display: flex;
@@ -590,4 +591,42 @@ a {
     border-radius: 110px;
     background: #bf83ff;
     right: 0;
+}
+/* <!-- CTA --> */
+.base-cta {
+    margin-top: 130px;
+    background: #def6f5;
+    padding: 76px 135px 86px;
+}
+.base-cta .body {
+    display: flex;
+    gap: 410px;
+    align-items: center;
+}
+.base-cta .left-content .heading {
+    color: #070707;
+    font-size: 4.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.base-cta .left-content .desc {
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 18px;
+}
+.base-cta .btn {
+    width: 186px;
+    height: 68px;
+    border-radius: 14px;
+    background: #2ac9bf;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3.8;
 }
