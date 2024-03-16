@@ -15,6 +15,10 @@ a {
 :root {
     --primary-color: #1ebfc1;
 }
+html,
+body {
+    scroll-behavior: smooth;
+}
 /* Commont */
 
 .main-content {
@@ -62,6 +66,7 @@ a {
 .header .navigation li:hover a {
     text-shadow: currentcolor 1px 0px 0px;
 }
+
 .header .cta .btn {
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
@@ -88,6 +93,24 @@ a {
     padding: 50px 0 79px;
     /* justify-content: space-between; */
     /* align-items: center; */
+}
+.hero .avatar-collection .member {
+    width: 33px;
+    height: 33px;
+    background: #1ebfc1;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3.2;
+    /* display: inline-flex; */
+    /* margin-left: -6px; */
+    /* margin: 8px -96px 0px 0; */
+    right: 35px;
+    bottom: 17px;
+    position: absolute;
 }
 .hero .cta-content {
     width: 50%;
@@ -605,6 +628,7 @@ a {
     align-items: center;
 }
 .base-cta .left-content .heading {
+    width: 420px;
     color: #070707;
     font-size: 4.2rem;
     font-style: normal;
@@ -620,7 +644,8 @@ a {
     margin-top: 18px;
 }
 .base-cta .btn.start {
-    width: 186px;
+    width: 100%;
+    min-width: 186px;
     height: 68px;
     border-radius: 14px;
     background: #2ac9bf;
