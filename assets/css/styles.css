@@ -40,14 +40,14 @@ body {
     position: sticky;
     z-index: 1;
     top: -36px;
-    background: rgb(255 255 255 / 70%);
+    background: rgb(255 255 255 / 95%);
 }
 
 /* ==============Header============= */
 .header .main-content {
     display: flex;
     align-items: center;
-    padding: 52px 0;
+    padding: 52px 0 18px 0px;
 }
 .header .main-content .navigation {
     margin-left: auto;
